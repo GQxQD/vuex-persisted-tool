@@ -28,7 +28,7 @@ export default function (options, storage, ignore, key) {
   }
 
   function setState(key, state, storage) {
-    state = { ...state };
+    state = Object.assign({}, state);
     for (let i in ignore) {
       if (ignore.hasOwnProperty(i)) {
         delete state[ignore[i]];
