@@ -1,0 +1,23 @@
+{
+  "name": "vuex-persisted-tool",
+  "version": "1.0.0",
+  "description": "Persist Vuex state with localStorage or other storages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GQxQD/vuex-persisted-tool.git"
+  },
+  "keywords": [
+    "vue",
+    "vuex"
+  ],
+  "author": "kohai <kohaiyzp@gmail.com> (https://github.com/gqxqd)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GQxQD/vuex-persisted-tool/issues"
+  },
+  "homepage": "https://github.com/GQxQD/vuex-persisted-tool#readme"
+}
