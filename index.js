@@ -29,7 +29,7 @@ export default function (options, storage, ignore, key) {
 
   function setState(key, state, storage) {
     state = Object.assign({}, state);
-    for (let i in ignore) {
+    for (var i in ignore) {
       if (ignore.hasOwnProperty(i)) {
         delete state[ignore[i]];
       }
@@ -42,7 +42,7 @@ export default function (options, storage, ignore, key) {
       throw new Error('Can not write the storage!');
     }
     const state = getState(key, storage);
-    for (let key in state) {
+    for (var key in state) {
       if (state.hasOwnProperty(key) && !~ignore.indexOf(key)) {
         store.commit(key, state[key]);
       }

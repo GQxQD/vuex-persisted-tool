@@ -1,6 +1,6 @@
 {
   "name": "vuex-persisted-tool",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Persist Vuex state with localStorage or other storages.",
   "main": "index.js",
   "scripts": {
